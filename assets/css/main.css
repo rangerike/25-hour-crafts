@@ -1,0 +1,60 @@
+body img.logo {
+  height: 130px;
+  padding: 25px;
+  float:left;
+}
+body #header {
+  height:200px;
+  background-color: lightgray;
+}
+body #header div.width-80 {
+  width:80%;
+  margin:auto;
+}
+body #header ul {
+  float:right;
+  list-style: none;
+  padding: 50px;
+}
+body #header ul li a {
+  text-decoration: none;
+}
+
+body #content {
+  height: 800px;
+}
+body #content div.row {
+  height: 400px;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+body #content div.row #main_about {
+  float: left;
+  width: 50%;
+}
+body #content div.row #main_about p {
+  padding:0px 10px;
+}
+body #content div.row #main_about ul {
+}
+body #content div.row img.main_image {
+  float:right;
+  width: 50%;
+  padding:20px 0px;
+}
+body #content div.row #about_kayla {
+  float: left;
+  width: 50%;
+}
+body #content div.row #about_kayla p {
+  padding:0px 10px;
+}
+body #footer {
+  background-color: #000000;
+  height: 100px;
+  color: #FFFFFF;
+}
+body #footer p {
+  padding: 50px;
+}
