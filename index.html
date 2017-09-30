@@ -9,6 +9,7 @@
 	<link href="assets/images/logos/apple-touch-icon-114x114-precomposed.png" rel="apple-touch-icon-precomposed" sizes="114x114" />
 	<link href="assets/images/logos/apple-touch-icon-72x72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72" />
 	<link href="assets/images/logos/apple-touch-icon-precomposed.png" rel="apple-touch-icon-precomposed" />
+	<link href="https://fonts.googleapis.com/css?family=Kavoon|Neuton:400,700|Space+Mono:700" rel="stylesheet">
 	<style amp-boilerplate="" type="text/css">body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
 	</style>
 	<noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript><script type="application/ld+json">
@@ -30,19 +31,39 @@
 		"telephone": "(262) 237-8834"
 	}
 	</script>
-	<style amp-custom="" type="text/css">body {
-		background: #ffffff url("assets/images/fabric.jpg") no-repeat center top;
+	<style amp-custom="" type="text/css">
+	h1.nerdy {
+		font-family: 'Space Mono', monospace;
+		margin-top: -20px;
+	}
+	h1.elegant {
+		font-family: 'Neuton', serif;
+		float: right;
+		font-style: italic;
+		margin-top: -30px;
+	}
+	h1.practical {
+		font-family: 'Space Mono', monospace;
+	}
+	h1 {
+		font-size: 140px;
+		margin: 0px;
+		color: green;
+		text-shadow: 2px 2px 10px blue;
+	}
+	body {
+
 	}
 	body amp-img.logo {
 		float: left;
 		padding: 15px;
 	}
 	body #header {
-		min-height: 125px;
+		min-height: 150px;
 		background: rgba(0,0,0,0.8);
-		position: fixed;
+		/*position: fixed;
 		width: 100%;
-		z-index: 999;
+		z-index: 999;*/
 	}
 	@media screen and (min-width: 768px) {
 		body #header div.width-80 {
@@ -59,56 +80,56 @@
 		text-decoration: none;
 		color: #00ccff;
 	}
-	body #content {
-		display: inline-block;
-		margin-top: 125px;
+	body #main_content {
+		/*margin-top: 125px;*/
+		background: #ffffff url("assets/images/fabric.jpg") no-repeat center top;
 	}
-	body #content div.row {
+	body #main_content div.row {
 		height: 100%;
 		width: 80%;
 		margin: auto;
 	}
-	@media only screen and (min-width: 1024px) and (max-width: 1440px) {
-		body #content div.row #main_about {
-			float: left;
-			width: 50%;
-		}
-	}
-	@media only screen and (max-width:1024px) {
-		body #content {
-			min-height: 450px;
-		}
-	}
-	body #content div.row #main_about p {
-		padding:0px 10px;
-	}
+	/*@media only screen and (min-width: 1024px) and (max-width: 1440px) {
 	body #content div.row #main_about {
-		color: #FFFFFF;
+	float: left;
+	width: 50%;
+}
+}*/
+@media only screen and (max-width:1024px) {
+	body #main_content {
+		min-height: 450px;
 	}
-	body #content div.row amp-img.main_image {
-		margin: 15px 0px;
-	}
-	body #content div.row #about_kayla {
-		float: left;
-		width: 50%;
-	}
-	body #content div.row #about_kayla p {
-		padding:0px 10px;
-	}
-	body #footer {
-		background-color: #000000;
-		height: 200px;
-		color: #FFFFFF;
-	}
-	body #footer p {
-		margin: 0px;
-		padding-top: 80px;
-		float: right;
-	}
-	body #footer .social_logo {
-		margin: 25px;
-	}
-	</style>
+}
+body #content div.row #main_about p {
+	padding:0px 10px;
+}
+body #content div.row #main_about {
+	color: green;
+}
+body #content div.row amp-img.main_image {
+	margin: 15px 0px;
+}
+body #content div.row #about_kayla {
+	float: left;
+	width: 50%;
+}
+body #content div.row #about_kayla p {
+	padding:0px 10px;
+}
+body #footer {
+	background-color: lightgray;
+	height: 200px;
+	color: #FFFFFF;
+}
+body #footer p {
+	margin: 0px;
+	padding-top: 80px;
+	float: right;
+}
+body #footer .social_logo {
+	margin: 25px;
+}
+</style>
 </head>
 <body>
 	<div id="header">
@@ -123,12 +144,15 @@
 		</div>
 	</div>
 
+	<div id="main_content">
+		<div class="row">
+			<h1 class="nerdy">Nerdy</h1> <h1 class="elegant">Elegant</h1><h1 class="practical">Practical</h1>
+		</div>
+	</div>
 	<div id="content">
 		<div class="row">
 			<div id="main_about">
-				<h1>Nerdy - Elegant - Practical</h1>
-
-				<p>Whether you&#39;re looking for something to subtley show off your nerdy side, a bag to hold all those RPG dice, or a gift for that lovable geek in your life, 25th Hour Crafts has something handmade just for you!</p>
+				<p>Whether you&#39;re looking for a piece of jewelry to subtley show off your nerdy side, a bag to hold all those RPG dice, or a gift for that lovable geek in your life, 25th Hour Crafts has something handmade just for you!</p>
 
 				<p>We have a slew of premade items that we take to conventions around the upper upper midwest, but we can also make something custom just for you to fit your specific nerd or geek.</p>
 
@@ -150,14 +174,15 @@
 
 				<p>And that&#39;s not an exhaustive list of all the different things we can make!</p>
 			</div>
-			<amp-img alt="Kayla &amp; Scott Bitz" class="main_image" height="355" layout="responsive" src="assets/images/kayla_scott_concinitty_small.jpg" width="535"></amp-img></div>
+			<!-- <amp-img alt="Kayla &amp; Scott Bitz" class="main_image" height="355" layout="responsive" src="assets/images/kayla_scott_concinitty_small.jpg" width="535"></amp-img></div> -->
 		</div>
+	</div>
 
-		<div id="footer">
-			<a href="https://www.instagram.com/25thhourcrafts/"><amp-img alt="Instagram" class="social_logo" height="50" src="assets/images/logos/instagram.png" width="50"></amp-img></a>
-			<a href="https://www.facebook.com/25hourcrafts"><amp-img alt="Instagram" class="social_logo" height="50" src="assets/images/logos/facebook.png" width="50"></amp-img></a>
+	<div id="footer">
+		<a href="https://www.instagram.com/25thhourcrafts/"><amp-img alt="Instagram" class="social_logo" height="50" src="assets/images/logos/instagram.png" width="50"></amp-img></a>
+		<a href="https://www.facebook.com/25hourcrafts"><amp-img alt="Instagram" class="social_logo" height="50" src="assets/images/logos/facebook.png" width="50"></amp-img></a>
 
-			<p>25th Hour Crafts 2017</p>
-		</div>
-	</body>
-	</html>
+		<p>25th Hour Crafts 2017</p>
+	</div>
+</body>
+</html>
