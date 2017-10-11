@@ -28,6 +28,17 @@
 	}
 	</script>
 	<style amp-custom>
+	h1 {
+		font-family: 'Space Mono', monospace;
+		/*font-size: 100px;*/
+		margin: 0px;
+		/*color: #FFFFFF;*/
+		text-shadow: 2px 2px 10px #FFFFFF;
+		text-transform: uppercase;
+	}
+	body {
+
+	}
 	body amp-img.logo {
 		float: left;
 		padding: 15px;
@@ -54,72 +65,119 @@
 		text-decoration: none;
 		/*color: #00ccff;*/
 	}
-
-	body #content {
-		/*display: inline-block;
-		margin-top: 125px;*/
+	body #main_content {
+		/*margin-top: 125px;*/
+		/*background: #ffffff url("assets/images/fabric.jpg") no-repeat center top;*/
 	}
-	body #content div.row {
+	body div.row {
 		height: 100%;
 		width: 80%;
 		margin: auto;
 	}
-	@media only screen and (min-width: 1024px) and (max-width: 1440px) {
-		body #content div.row #main_about {
-			float: left;
-			width: 50%;
-		}
+	/*@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+	body #content div.row #main_about {
+	float: left;
+	width: 50%;
+}
+}*/
+@media only screen and (max-width:1024px) {
+	body #main_content {
+		min-height: 450px;
 	}
-	@media only screen and (max-width:1024px) {
-		body #content {
-			min-height: 450px;
-		}
-	}
-	body #content div.row #main_about p {
-		padding:0px 10px;
-	}
-	body #content div.row #main_about ul {
-	}
-	body #content div.row amp-img.main_image {
-		margin: 15px 0px;
-	}
-	body #content div.row #about_kayla {
-		float: left;
-		width: 50%;
-	}
-	body #content div.row #about_kayla p {
-		padding:0px 10px;
-	}
-	body #footer {
-		background: rgb(176,190,197);
-		height: 200px;
-		/*color: #FFFFFF;*/
-	}
-	body #footer p {
-		margin: 0px;
-		padding-top: 80px;
-		float: right;
-	}
-	</style>
+}
+body #main_content div.row #main_about p {
+	padding: 0px 10px;
+	color: #000000;
+	text-shadow: 2px 2px 10px #FFFFFF;
+}
+body #content div.row #main_about {
+	color: green;
+}
+body #content div.row amp-img.main_image {
+	margin: 15px 0px;
+}
+body #content div.row #about_kayla {
+	float: left;
+	width: 50%;
+}
+body #content div.row #about_kayla p {
+	padding:0px 10px;
+}
+body #footer {
+	background: rgb(176,190,197);
+	height: 200px;
+	/*color: #FFFFFF;*/
+}
+body #footer p {
+	margin: 0px;
+	padding-top: 80px;
+	float: right;
+}
+body #footer .social_logo {
+	margin: 25px;
+}
+.button {
+	height: 20px;
+	width: 80px;
+	border-radius: 5px;
+	border: 1px solid black;
+	background-color: white;
+	margin-bottom: 2px;
+	text-align: center;
+}
+div.upcoming_events {
+	border: 1px solid black;
+	width: 33%;
+	float: left;
+	margin-bottom: 15px;
+	text-align: center;
+}
+</style>
 </head>
 <body>
 	<div id="header">
 		<div class="width-80">
 			<amp-img class="logo" src="assets/images/logos/25th-hour-crafts-color.png" height="80" width="130" alt="25th Hour Crafts"></amp-img>
 			<ul>
-				<li><a href="/">Home</a></li>
-				<li><a href="/about_us.html">About Us</a></li>
-				<li><a href="/gallery.html">Gallery</a></li>
-				<li><a href="/events.html">Events</a></li>
-				<li><a href="/contact_us.html">Contact Us</a></li>
+				<li><a href="index.html"><div class="button">Home</div></a></li>
+				<li><a href="about_us.html"><div class="button">About Us</div></a></li>
+				<li><a href="gallery.html"><div class="button">Gallery</div></a></li>
+				<li><a href="events.html"><div class="button">Events</div></a></li>
+				<li><a href="contact_us.html"><div class="button">Contact Us</div></a></li>
 			</ul>
 		</div>
 	</div>
 	<div id="content">
-		<h1>Events</h1>
+		<div class="row">
+			<h1>Events</h1>
+			<h2>Upcoming</h2>
+			<div>
+				<div class="upcoming_events">
+					<p><a href="https://www.facebook.com/events/1686748901620547/?active_tab=about" target="_blank">GeekCraft Expo Midwest Fall Mall</a> | Madison, WI</p>
+					<p>Madison Masonic Center</p>
+					<p><strong>Oct. 14th &amp; 15th, 2017</strong></p>
+				</div>
+				<div class="upcoming_events">
+					<p><a href="https://popconmilwaukee.com/" target="_blank">POPCON! Milwaukee</a> | Milwaukee, WI</p>
+					<p>Crowne Plaza Hotel &amp; Convention Center</p>
+					<p><strong>Nov. 4th &amp; 5th, 2017</strong></p>
+				</div>
+				<div class="upcoming_events">
+					<p><a href="http://chicagotardis.com/" target="_blank">Chicago TARDIS</a> | Lombard, IL</p>
+					<p>Western Lombard Yorktown Center</p>
+					<p><strong>Nov. 24th - 26th, 2017</strong></p>
+				</div>
+			</div>
+			<br>
+			<h2>Past</h2>
+			<div></div>
+		</div>
 	</div>
 	<div id="footer">
-		<p>&copy;25th Hour Crafts 2017</p>
+		<a href="https://www.instagram.com/25thhourcrafts/"><amp-img alt="Instagram" class="social_logo" height="50" src="assets/images/logos/instagram.png" width="50"></amp-img></a>
+		<a href="https://www.facebook.com/25hourcrafts"><amp-img alt="Instagram" class="social_logo" height="50" src="assets/images/logos/facebook.png" width="50"></amp-img></a>
+
+		<p>25th Hour Crafts 2017</p>
 	</div>
 </body>
 </html>
