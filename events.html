@@ -131,12 +131,34 @@ body #footer .social_logo {
 	margin-bottom: 2px;
 	text-align: center;
 }
+div.section  {
+	display: inline-block;
+	width: 100%;
+}
 div.upcoming_events {
 	border: 1px solid black;
 	width: 33%;
 	float: left;
 	margin-bottom: 15px;
 	text-align: center;
+}
+div.past_events {
+	border: 1px solid #FFFFFF;
+	background-color: #000000;
+	color: #FFFFFF;
+	width: 33%;
+	float: left;
+	margin-bottom: 15px;
+	text-align: center;
+}
+@media only screen and (max-width: 40em) {
+	div.upcoming_events {
+		width: 100%;
+	}
+	div.past_events {
+
+		width: 100%;
+	}
 }
 </style>
 </head>
@@ -157,7 +179,7 @@ div.upcoming_events {
 		<div class="row">
 			<h1>Events</h1>
 			<h2>Upcoming</h2>
-			<div>
+			<div class="section">
 				<div class="upcoming_events">
 					<p><a href="https://www.facebook.com/events/1686748901620547/?active_tab=about" target="_blank">GeekCraft Expo Midwest Fall Mall</a> | Madison, WI</p>
 					<p>Madison Masonic Center</p>
@@ -174,9 +196,24 @@ div.upcoming_events {
 					<p><strong>Nov. 24th - 26th, 2017</strong></p>
 				</div>
 			</div>
-			<br>
 			<h2>Past</h2>
-			<div></div>
+			<div class="section">
+				<div class="past_events">
+					<p><a href="https://wizardworld.com/comiccon/madison" target="_blank">Wizard World</a> | Madison, WI</p>
+					<p>Alliant Energy Center</p>
+					<p><strong>Sept. 22nd - 24th, 2017</strong></p>
+				</div>
+				<div class="past_events">
+					<p><a href="http://console-room.com/" target="_blank">CONsole Room</a> | ST. Paul, MN</p>
+					<p>Hilton MSP Airport/Mall of America</p>
+					<p><strong>May 12th - 14th, 2017</strong></p>
+				</div>
+				<div class="past_events">
+					<p><a href="https://www.facebook.com/Concinnitycon/" target="_blank">Concinnity/Kappa Kon</a> | Milwaukee, WI</p>
+					<p>MSOE Campus Center</p>
+					<p><strong>Apr. 8th, 2017</strong></p>
+				</div>
+			</div>
 		</div>
 	</div>
 	<div id="footer">
