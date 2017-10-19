@@ -52,6 +52,18 @@ limitations under the License.
   <script custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js" async></script>
   <!-- <script custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js" async></script> -->
 
+  <?php
+    if($amp_list) {
+      $this->load->view('templates/code/amp-list.php');
+    }
+    if($amp_bind) {
+      $this->load->view('templates/code/amp-bind.php');
+    }
+    if($amp_mustache) {
+      $this->load->view('templates/code/amp-mustache.php');
+    }
+  ?>
+
   <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">
 
   <style amp-custom>/*! Bassplate | MIT License | http://github.com/basscss/bassplate */

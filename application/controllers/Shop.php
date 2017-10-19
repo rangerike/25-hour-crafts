@@ -4,12 +4,16 @@ class Shop extends CI_Controller {
 	public function index()
 	{}
 
-  public function product($page = 'home')
+  public function product($page = 'product_list')
   {
-    if (!file_exists(APPPATH.'views/shop/'.$page.'.php')) {
-      show_404();
-    }
-    $data['title'] = ucfirst($page);
+
+		$data = array(
+			'page' => ucfirst(($page==='product_list'?'products':$page)),
+			'canonicalURI' => 'shop/product'.($page==='product_list'?'':'/'.$page),
+			'amp_list' => TRUE,
+			'amp_bind' => TRUE,
+			'amp_mustache' => TRUE
+		);
 
     $this->load->view('templates/header', $data);
     $this->load->view('shop/'.$page, $data);
