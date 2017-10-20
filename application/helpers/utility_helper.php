@@ -11,7 +11,7 @@
  */
 
 function asset_url(){
-   return 'https://localhost/25-hour-crafts/public_html/assets/';
+   return 'https://localhost/25-hour-crafts/assets/';
 }
 
 function absolute_url(){
