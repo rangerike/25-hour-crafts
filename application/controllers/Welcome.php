@@ -22,10 +22,7 @@ class Welcome extends CI_Controller {
 	{
 		$data = array(
 			'page' => 'Home',
-			'canonicalURI' => '',
-			'amp_list' => false,
-			'amp_bind' => false,
-			'amp_mustache' => false
+			'canonicalURI' => ''
 		);
 		$this->load->view('templates/header.php', $data);
 		$this->load->view('main_page', $data);

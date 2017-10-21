@@ -27,8 +27,7 @@ limitations under the License.
   <script async src="https://cdn.ampproject.org/v0.js"></script>
 
   <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate="">body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
-
-  <!-- <script type="application/ld+json">
+  <script type="application/ld+json">
   {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
@@ -45,26 +44,14 @@ limitations under the License.
   },
   "name": "25th Hour Crafts",
   "telephone": "(262) 237-8834",
-  "image": "https://25thhourcrafts.com/assets/images/logos/25th-hour-crafts-color-small.png",
+  "image": "https://25thhourcrafts.com/assets/images/logos/25th-hour-crafts-color-mail-logo.png",
   "priceRange": "$"
   }
-  </script> -->
+  </script>
   <script custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js" async=""></script>
   <script custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js" async=""></script>
   <script custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js" async=""></script>
-  <!-- <script custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js" async></script> -->
-
-  <?php
-  /*if($amp_list) {
-    $this->load->view('templates/code/amp-list.php');
-  }
-  if($amp_bind) {
-    $this->load->view('templates/code/amp-bind.php');
-  }
-  if($amp_mustache) {
-    $this->load->view('templates/code/amp-mustache.php');
-  }*/
-  ?>
+  <script custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js" async></script>
 
   <link href="https://fonts.googleapis.com/css?family=EB+Garamond%7CWork+Sans:400,700" rel="stylesheet">
 
