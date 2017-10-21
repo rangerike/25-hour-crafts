@@ -18,10 +18,10 @@ class Welcome extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
-	public function index($page = 'home')
+	public function index()
 	{
 		$data = array(
-			'page' => ucfirst($page),
+			'page' => 'Home',
 			'canonicalURI' => '',
 			'amp_list' => false,
 			'amp_bind' => false,

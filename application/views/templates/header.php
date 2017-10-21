@@ -24,7 +24,6 @@ limitations under the License.
   <link rel="canonical" href="<?=absolute_url().$canonicalURI?>">
   <link href="<?=asset_url()?>images/logos/25th-hour-crafts-color-small.png" rel="icon" />
   <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-
   <script async src="https://cdn.ampproject.org/v0.js"></script>
 
   <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate="">body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
@@ -53,8 +52,6 @@ limitations under the License.
   <script custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js" async=""></script>
   <script custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js" async=""></script>
   <script custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js" async=""></script>
-  <script custom-element="amp-instagram" src="https://cdn.ampproject.org/v0/amp-instagram-0.1.js" async=""></script>
-  <script custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js" async=""></script>
   <!-- <script custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js" async></script> -->
 
   <?php
@@ -82,7 +79,6 @@ limitations under the License.
       <amp-img src="<?=asset_url()?>images/logos/25th-hour-crafts-color-main-logo.png" width="65" height="45" layout="fixed" class="my0 mx-auto " alt="25th Hour Crafts Logo"></amp-img>
     </div>
   </header>
-
   <!-- Start Sidebar -->
   <amp-sidebar id="header-sidebar" class="ampstart-sidebar px3  " layout="nodisplay">
     <div class="flex justify-start items-center ampstart-sidebar-header">
@@ -90,10 +86,15 @@ limitations under the License.
     </div>
     <nav class="ampstart-sidebar-nav ampstart-nav">
       <div><a href="<?=absolute_url()?>"><h1>25th Hour Crafts</h1></a><br></div>
-      <ul class="list-reset m0 p0 ampstart-label">
-        <li class="ampstart-nav-item ampstart-nav-dropdown relative ">
+      <ul class="ampstart-sidebar-faq list-reset m0 p0">
+        <li class="ampstart-faq-item"><a href="<?=absolute_url()?>about" class="text-decoration-none">About</a></li>
+        <li class="ampstart-faq-item"><a href="<?=absolute_url()?>events" class="text-decoration-none">Events</a></li>
+        <li class="ampstart-faq-item"><a href="<?=absolute_url()?>contact" class="text-decoration-none">Contact</a></li>
+      </ul>
+      <!-- <ul class="list-reset m0 p0 ampstart-label">
+        <li class="ampstart-nav-item ampstart-nav-dropdown relative "> -->
           <!-- Start Dropdown-inline -->
-          <amp-accordion layout="container" disable-session-states="" class="ampstart-dropdown">
+          <!-- <amp-accordion layout="container" disable-session-states="" class="ampstart-dropdown">
             <section>
               <header>Photography</header>
               <ul class="ampstart-dropdown-items list-reset m0 p0">
@@ -101,12 +102,12 @@ limitations under the License.
                 <li class="ampstart-dropdown-item"><a href="#" class="text-decoration-none">Landscape</a></li>
               </ul>
             </section>
-          </amp-accordion>
+          </amp-accordion> -->
           <!-- End Dropdown-inline -->
-        </li>
-        <li class="ampstart-nav-item ampstart-nav-dropdown relative ">
+        <!-- </li>
+        <li class="ampstart-nav-item ampstart-nav-dropdown relative "> -->
           <!-- Start Dropdown-inline -->
-          <amp-accordion layout="container" disable-session-states="" class="ampstart-dropdown">
+          <!-- <amp-accordion layout="container" disable-session-states="" class="ampstart-dropdown">
             <section>
               <header>Travel</header>
               <ul class="ampstart-dropdown-items list-reset m0 p0">
@@ -114,10 +115,10 @@ limitations under the License.
                 <li class="ampstart-dropdown-item"><a href="#" class="text-decoration-none">USA</a></li>
               </ul>
             </section>
-          </amp-accordion>
+          </amp-accordion> -->
           <!-- End Dropdown-inline -->
-        </li>
-      </ul>
+        <!-- </li>
+      </ul> -->
     </nav>
     <ul class="ampstart-social-follow list-reset flex justify-around items-center flex-wrap m0 mb4">
       <!-- <li>
@@ -135,10 +136,6 @@ limitations under the License.
       <li>
         <a href="mailto:craftyhobbitshop@gmail.com" target="_blank" class="inline-block p1" aria-label="Link to AMP HTML E-mail"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="18.4" viewbox="0 0 56 43"><title>email</title><path d="M10.5 6.4C9.1 6.4 8 7.5 8 8.9v21.3c0 1.3 1.1 2.5 2.5 2.5h34.9c1.4 0 2.5-1.2 2.5-2.5V8.9c0-1.4-1.1-2.5-2.5-2.5H10.5zm2.1 2.5h30.7L27.9 22.3 12.6 8.9zm-2.1 1.4l16.6 14.6c.5.4 1.2.4 1.7 0l16.6-14.6v19.9H10.5V10.3z" class="ampstart-icon ampstart-icon-email"></path></svg></a>
       </li>
-    </ul>
-    <ul class="ampstart-sidebar-faq list-reset m0">
-      <li class="ampstart-faq-item"><a href="#" class="text-decoration-none">About</a></li>
-      <li class="ampstart-faq-item"><a href="#" class="text-decoration-none">Contact</a></li>
     </ul>
   </amp-sidebar>
   <!-- End Sidebar -->
