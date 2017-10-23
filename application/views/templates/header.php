@@ -64,7 +64,7 @@ limitations under the License.
     <div role="button" aria-label="open sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger  pr2  ">☰
     </div>
     <div class="ampstart-headerbar-title mx-auto h3">
-      <amp-img src="<?=asset_url()?>images/logos/25th-hour-crafts-color-main-logo.png" width="65" height="45" layout="fixed" class="my0 mx-auto " alt="25th Hour Crafts Logo"></amp-img>
+      <a href="<?=absolute_url()?>"><amp-img src="<?=asset_url()?>images/logos/25th-hour-crafts-color-main-logo.png" width="65" height="45" layout="fixed" class="my0 mx-auto " alt="25th Hour Crafts Logo"></amp-img></a>
     </div>
   </header>
   <!-- Start Sidebar -->
