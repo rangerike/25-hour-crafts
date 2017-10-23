@@ -20,11 +20,12 @@ limitations under the License.
 
 <head>
   <meta charset="utf-8">
-  <title><?=$page?> | 25th Hour Crafts</title>
+  <title><?=$page?> | 25th Hour Crafts | Handmade Nerdy and Geeky Crafts</title>
   <link rel="canonical" href="<?=absolute_url().$canonicalURI?>">
   <link href="<?=asset_url()?>images/logos/25th-hour-crafts-color-small.png" rel="icon" />
   <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
   <script async src="https://cdn.ampproject.org/v0.js"></script>
+  <meta name="description" content="<?=$meta_description?>">
 
   <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate="">body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
   <script type="application/ld+json">
@@ -72,7 +73,7 @@ limitations under the License.
       <div role="button" aria-label="close sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger items-start">✕</div>
     </div>
     <nav class="ampstart-sidebar-nav ampstart-nav">
-      <div><a href="<?=absolute_url()?>"><h1>25th Hour Crafts</h1></a><br></div>
+      <div><a href="<?=absolute_url()?>"><h3 class='h2 ampstart-accent'>25th Hour Crafts</h3></a><br></div>
       <ul class="ampstart-sidebar-faq list-reset m0 p0">
         <li class="ampstart-faq-item"><a href="<?=absolute_url()?>about" class="text-decoration-none">About</a></li>
         <li class="ampstart-faq-item"><a href="<?=absolute_url()?>events" class="text-decoration-none">Events</a></li>

@@ -22,7 +22,8 @@ class Welcome extends CI_Controller {
 	{
 		$data = array(
 			'page' => 'Home',
-			'canonicalURI' => ''
+			'canonicalURI' => '',
+			'meta_description' => 'Handmade nerdy crafts or geeky crafts like steampunk charm necklaces, licensed character dice bags, and fleece blankets with a crocheted edge, not tied'
 		);
 		$this->load->view('templates/header.php', $data);
 		$this->load->view('main_page', $data);

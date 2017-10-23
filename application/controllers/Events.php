@@ -6,7 +6,8 @@ class Events extends CI_Controller {
 	{
 		$data = array(
 			'page' => 'Events',
-			'canonicalURI' => 'events'
+			'canonicalURI' => 'events',
+			'meta_description' => 'Would you rather meet Kayla and Scott in person? Well, we might be coming to a city near you and we would love to show you everything we have to offer'
 		);
 		$this->load->view('templates/header.php', $data);
 		$this->load->view('events', $data);

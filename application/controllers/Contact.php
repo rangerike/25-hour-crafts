@@ -6,7 +6,8 @@ class Contact extends CI_Controller {
 	{
 		$data = array(
 			'page' => 'Contact Us',
-			'canonicalURI' => 'contact'
+			'canonicalURI' => 'contact',
+			'meta_description' => 'Are you looking for a specific nerdy or geeky handmade item? How about you need another vendor? In either case, Email us at craftyhobbitshop@gmail.com!'
 		);
 		$this->load->view('templates/header.php', $data);
 		$this->load->view('contact_us', $data);
