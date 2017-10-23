@@ -2,8 +2,8 @@
   <h1 class="m3">Events</h1>
   <article class="photo-article">
     <p class="m3 ampstart-dropcap">
-      Kayla and Scott travel all around the upper Midwest to various nerdy craft fairs, conventions, etc. to bring their handmade crafts to those who would
-      enjoy them the most.
+      Kayla and Scott travel all around the upper Midwest to various nerdy craft fairs, conventions, comic cons, etc.
+      to bring their handmade crafts to those who would enjoy them the most.
     </p>
     <p class="m3">
       If you're in the area, come say "Hi" and we'd be happy to meet you and chat!
