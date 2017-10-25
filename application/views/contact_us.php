@@ -1,9 +1,9 @@
 <main id="content" role="main">
-  <h1 class="m3">Contact Us</h1>
+  <h1 class="m3">Contact 25th Hour Crafts</h1>
   <article class="photo-article">
     <p class="m3">
-      If you're looking to get in touch with us about a possible vending opportunity or you're interested in
-      something that we make, you can reach us at <a href="mailto:craftyhobbitshop@gmail.com">craftyhobbitshop@gmail.com</a>
+      If you're looking to get in touch with us about a possible vending opportunity or you're interested in having
+      one of our handmade nerdy or geeky crafts sent right to your door, you can reach us at <a href="mailto:craftyhobbitshop@gmail.com">craftyhobbitshop@gmail.com</a>
       and we'll get back to you as soon as we can.
     </p>
     <p class="m3">

@@ -1,14 +1,13 @@
 <main id="content" role="main">
-  <h1 class="m3">Events</h1>
+  <h1 class="m3">Upcoming Events</h1>
   <article class="photo-article">
     <p class="m3 ampstart-dropcap">
-      Kayla and Scott travel all around the upper Midwest to various nerdy craft fairs, conventions, comic cons, etc.
+      Kayla and Scott travel all around the upper Midwest to various nerdy craft fairs, geeky conventions, comic cons, etc.
       to bring their handmade crafts to those who would enjoy them the most.
     </p>
     <p class="m3">
       If you're in the area, come say "Hi" and we'd be happy to meet you and chat!
     </p>
-    <h2 class="underline m3">Upcoming</h2>
     <section>
       <div class="m3 border center">
         <p><a href="https://popconmilwaukee.com/" target="_blank">POPCON! Milwaukee</a> | Milwaukee, WI</p>
