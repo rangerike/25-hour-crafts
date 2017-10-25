@@ -23,7 +23,7 @@ class Welcome extends CI_Controller {
 		$data = array(
 			'page' => 'Home',
 			'canonicalURI' => '',
-			'meta_description' => 'Handmade nerdy crafts or geeky crafts like steampunk charm necklaces, licensed character dice bags, and fleece blankets with a crocheted edge, not tied'
+			'meta_description' => '25th Hour Crafts makes handmade nerdy crafts or geeky crafts like steampunk charm necklaces, licensed cotton dicebags, and crocheted edge fleece blankets'
 		);
 		$this->load->view('templates/header.php', $data);
 		$this->load->view('main_page', $data);

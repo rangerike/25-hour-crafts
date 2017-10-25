@@ -26,7 +26,7 @@
     </p>
     <p class="m3 ampstart-dropcap">
       Whether you're looking for a piece of jewelry to subtly show off your nerdy side, a licensed character cotton
-      or chainmaille dice bag to hold all those gaming dice or a gift for that lovable geek in your life, 25th Hour Crafts
+      or chainmaille dicebag to hold all those gaming dice or a gift for that lovable geek in your life, 25th Hour Crafts
       has something just for you!
     </p>
     <p class="m3">
@@ -36,9 +36,9 @@
       not even close to an exhaustive list.
     </p>
     <p class="m3">
-      These hand-crafted nerdy items take the form of cute Amigurumi, cotton drawstring or zipper dice bags with soft liners,
-      themed chainmail dice bags using specific color palettes like the House Colors from Harry Potter and patterns like the Triforce,
-      comic book hero logo earrings like Wonder Woman, Batman, or Superman, and licensed fleece with a crocheted edge and not a tied edge
+      These hand-crafted nerdy items take the form of cute Amigurumi, cotton drawstring or zipper dicebags with soft liners,
+      themed chainmail dicebags using specific color palettes like the House Colors from Harry Potter and patterns like the Triforce,
+      comic book hero earrings like Wonder Woman, Batman, or Superman, and licensed fleece with a crocheted edge and not a tied edge
       (we don't like how tied fleece looks either). If geeky crafts are more your thing, we do make steampunk charm necklaces and earrings
       along with many other types of charms to match your personal style.
     </p>
@@ -49,7 +49,7 @@
     </p>
     <p class="m3">
       As well, we're always looking for new conventions to vend at, so if you would like to see us come to your city, send an email to
-      us at one of the linked email addresses on our <a href="<?=absolute_url()?>contact">Contact</a> page and we'll get back to you quickly
+      us at one of the email addresses on our <a href="<?=absolute_url()?>contact">Contact</a> page and we'll get back to you quickly
       on whether we are available and able to travel there.
     </p>
   </article>

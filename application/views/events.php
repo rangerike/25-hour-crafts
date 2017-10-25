@@ -8,6 +8,7 @@
     <p class="m3">
       If you're in the area, come say "Hi" and we'd be happy to meet you and chat!
     </p>
+    <h2 class="underline m3">Where 25th Hour Crafts Will be Next</h2>
     <section>
       <div class="m3 border center">
         <p><a href="https://popconmilwaukee.com/" target="_blank">POPCON! Milwaukee</a> | Milwaukee, WI</p>
