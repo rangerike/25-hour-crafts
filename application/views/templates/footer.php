@@ -26,7 +26,7 @@
   </ul>
 </nav>
 <small>
-  © 25th Hour Crafts, 2017
+  © 25th Hour Crafts, <?= date('Y')?>
 </small>
 </footer>
 <!-- End Footer -->

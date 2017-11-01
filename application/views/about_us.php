@@ -1,5 +1,5 @@
 <main id="content" role="main">
-  <h1 class="m3">About Us</h1>
+  <h1 class="m3">The (Short) History of 25th Hour Crafts</h1>
   <article class="photo-article">
     <p class="m3 ampstart-dropcap">
       25th Hour Crafts is the brainchild of Kayla and Scott Bitz brought to life by our imaginations and talents.
@@ -28,7 +28,7 @@
       (hopefully we can travel farther soon as we've been invited out to a con in Las Vegas!)
       appearing in the Artist Alley at conventions like <a href="http://chicagotardis.com/" target="_blank">Chicago Tardis</a>,
       <a href="http://console-room.com/" target="_blank">CONsole Room</a>,
-       and <a href="http://wizardworld.com/comiccon/madison" target="_blank">Wizard World</a> in Madison, WI.
+       and <a href="http://wizardworld.com/comiccon/madison" target="_blank">Wizard World</a> in Madison, WI and the rest is history.
     </p>
     <p class="m3 bold italic">
       Below is a short breakdown of what each of the two crafters does:
@@ -57,7 +57,7 @@
     </p>
     <!-- Start Image with Caption -->
     <figure class="ampstart-image-with-caption m0 relative mb4">
-      <amp-img src="<?=asset_url()?>images/kayla_scott_concinitty.jpg" width="756" height="520" alt="Description of the photograph." layout="responsive" class=""></amp-img>
+      <amp-img src="<?=asset_url()?>images/kayla_scott_concinitty.jpg" width="756" height="520" alt="Kayla and Scott Bitz of 25th Hour Crafts" layout="responsive" class=""></amp-img>
       <figcaption class="h5 mt1 px3">
         Kayla and Scott Bitz in their brand new 25th Hour Craft shirts at Concinnity/KappaKon 2017.
         <span class="ampstart-image-credit block bold">
