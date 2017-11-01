@@ -11,11 +11,11 @@
  */
 
 function asset_url(){
-   return 'https://localhost/25-hour-crafts/assets/';
+   return 'https://25thhourcrafts.com/assets/';
 }
 
 function absolute_url(){
-	return 'https://localhost/25-hour-crafts/public_html/';
+	return 'https://25thhourcrafts.com/';
 }
 
 
