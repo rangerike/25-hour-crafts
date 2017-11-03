@@ -11,6 +11,7 @@
     <p class="m3">
       If you're in the area of one of our upcoming events, come say "Hi" and we'd be happy to meet you and chat!
     </p>
+    <h2 class="m3">Events</h2>
     <section>
       <div class="m3 border center">
         <p><a href="https://popconmilwaukee.com/" target="_blank">POPCON! Milwaukee</a> | Milwaukee, WI</p>
