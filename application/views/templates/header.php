@@ -66,6 +66,9 @@ limitations under the License.
     <div class="ampstart-headerbar-title mx-auto h3">
       <a href="<?=absolute_url()?>"><amp-img src="<?=asset_url()?>images/logos/25th-hour-crafts-color-main-logo.svg" width="65" height="45" layout="fixed" class="my0 mx-auto " alt="25th Hour Crafts Logo"></amp-img></a>
     </div>
+    <div class="right">
+      <a href="<?=absolute_url()?>shop"><amp-img src="<?=asset_url()?>images/icons/ic_shopping_cart_black_24px.svg" width="35" height="35" layout="fixed" class="my0 mx-auto" alt="25th Hour Crafts Shop"></amp-img></a>
+    </div>
   </header>
   <!-- Start Sidebar -->
   <amp-sidebar id="header-sidebar" class="ampstart-sidebar px3  " layout="nodisplay">
@@ -78,6 +81,7 @@ limitations under the License.
         <li class="ampstart-faq-item"><a href="<?=absolute_url()?>about" class="text-decoration-none">About</a></li>
         <li class="ampstart-faq-item"><a href="<?=absolute_url()?>events" class="text-decoration-none">Events</a></li>
         <li class="ampstart-faq-item"><a href="<?=absolute_url()?>contact" class="text-decoration-none">Contact</a></li>
+        <li class="ampstart-faq-item"><a href="<?=absolute_url()?>shop" class="text-decoration-none">Shop</a></li>
       </ul>
       <!-- <ul class="list-reset m0 p0 ampstart-label">
         <li class="ampstart-nav-item ampstart-nav-dropdown relative "> -->

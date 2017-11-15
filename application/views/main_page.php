@@ -1,8 +1,8 @@
 <div class="center">
   <!-- Start Fullpage Hero -->
   <figure class="ampstart-image-fullpage-hero m0 relative mb4">
-    <amp-img width="404" height="720" alt="Madison, WI GeekCraft Fall Mall" layout="responsive" src="<?=asset_url()?>images/main.jpg" media="(max-width: 415px)"></amp-img>
-    <amp-img height="720" alt="Madison, WI GeekCraft Fall Mall" layout="fixed-height" src="<?=asset_url()?>images/main.jpg" media="(min-width: 416px)"></amp-img>
+    <amp-img width="404" height="720" alt="25th Hour Crafts at GeekCraft Fall Mall in Madison, WI" layout="responsive" src="<?=asset_url()?>images/main.jpg" media="(max-width: 415px)"></amp-img>
+    <amp-img height="720" alt="25th Hour Crafts at GeekCraft Fall Mall in Madison, WI" layout="fixed-height" src="<?=asset_url()?>images/main.jpg" media="(min-width: 416px)"></amp-img>
     <figcaption class="absolute top-0 right-0 bottom-0 left-0">
       <header class="p3">
         <h2 class="ampstart-fullpage-hero-heading mb3">

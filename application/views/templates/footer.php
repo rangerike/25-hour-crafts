@@ -22,7 +22,7 @@
     <li class="px1"><a class="text-decoration-none ampstart-label" href="<?=absolute_url()?>about">About</a></li>
     <li class="px1"><a class="text-decoration-none ampstart-label" href="<?=absolute_url()?>events">Events</a></li>
     <li class="px1"><a class="text-decoration-none ampstart-label" href="<?=absolute_url()?>contact">Contact</a></li>
-
+    <li class="px1"><a class="text-decoration-none ampstart-label" href="<?=absolute_url()?>shop">Shop</a></li>
   </ul>
 </nav>
 <small>
