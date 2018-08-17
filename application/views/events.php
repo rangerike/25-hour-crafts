@@ -5,8 +5,8 @@
       Kayla and Scott travel all around the upper Midwest to various nerdy craft fairs, geeky conventions, comic cons, etc.
       to bring their handmade crafts to those who would enjoy them the most. For us, traveling is definitely less fun than
       the destination especially with all the amazing costumes, other nerdy and geeky crafters, fun people, and talented artists we see.
-      We've also been invited to conventions further afield like in Las Vegas(!), but for now, we're sticking to places within a few hours of
-      Milwaukee for now, but soon we might travel more of the United States to meet even more people.
+      We've also been invited to conventions further afield like in Las Vegas(!), but for now, we're sticking a bit closer to home
+      especially since travelling with stuff to sell is harder than a regular trip.
     </p>
     <p class="m3">
       If you're in the area of one of our upcoming events, come say "Hi" and we'd be happy to meet you and chat!

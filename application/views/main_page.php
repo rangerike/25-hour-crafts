@@ -1,8 +1,8 @@
 <div class="center">
   <!-- Start Fullpage Hero -->
   <figure class="ampstart-image-fullpage-hero m0 relative mb4">
-    <amp-img width="404" height="720" alt="25th Hour Crafts at GeekCraft Fall Mall in Madison, WI" layout="responsive" src="<?=asset_url()?>images/main.jpg" media="(max-width: 415px)"></amp-img>
-    <amp-img height="720" alt="25th Hour Crafts at GeekCraft Fall Mall in Madison, WI" layout="fixed-height" src="<?=asset_url()?>images/main.jpg" media="(min-width: 416px)"></amp-img>
+    <amp-img width="404" height="720" alt="25th Hour Crafts at GeekCraft Expo in St. Louis, MO" layout="responsive" src="<?=asset_url()?>images/GeekCraftExpo-St-Louis.jpg" media="(max-width: 415px)"></amp-img>
+    <amp-img height="720" alt="25th Hour Crafts at GeekCraft Expo in St. Louis, MO" layout="fixed-height" src="<?=asset_url()?>images/GeekCraftExpo-St-Louis.jpg" media="(min-width: 416px)"></amp-img>
     <figcaption class="absolute top-0 right-0 bottom-0 left-0">
       <header class="p3">
         <h2 class="ampstart-fullpage-hero-heading mb3">
@@ -22,7 +22,7 @@
   <article class="photo-article">
     <h1 class="m3 center h2 italic">Handmade Nerdy &amp; Geeky Crafts</h1>
     <p class="m3 h3 bold">
-      The only limit to our crafts is imagination! And the laws of physics, but we like to think it's only our imagination.
+      If we had another hour in the day, we would use it to craft!
     </p>
     <p class="m3 ampstart-dropcap">
       Whether you're looking for a piece of jewelry to subtly show off your nerdy side, a licensed character cotton
