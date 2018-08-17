@@ -25,8 +25,9 @@
     <li class="px1"><a class="text-decoration-none ampstart-label" href="<?=absolute_url()?>shop">Shop</a></li>
   </ul>
 </nav>
-<small>
-  © 25th Hour Crafts, <?= date('Y')?>
+<small style="text-align: center;">
+  © 25th Hour Crafts, <?= date('Y')?><br><br>
+  All products made with licensed material are in no way associated with the original copyright owner and are the work of either Kayla or Scott Bitz.
 </small>
 </footer>
 <!-- End Footer -->

@@ -14,9 +14,19 @@
     <h2 class="m3">Events</h2>
     <section>
       <div class="m3 border center">
+        <p><a href="https://geekkon12.net/" target="_blank">Geek.Kon12</a> | Middleton, WI</p>
+        <p>Madison Marriott West</p>
+        <p><strong>Aug. 24th - 26th, 2018</strong></p>
+      </div>
+      <div class="m3 border center">
+        <p><a href="https://www.mightyconshows.com/show/milwaukee" target="_blank">Mighty Con Milwaukee</a> | Milwaukee, WI</p>
+        <p>Wisconsin State Fairgrounds - Product Pavillion</p>
+        <p><strong>Sept. 22nd, 2018</strong></p>
+      </div>
+      <div class="m3 border center">
         <p><a href="http://chicagotardis.com/" target="_blank">Chicago TARDIS</a> | Lombard, IL</p>
         <p>Western Lombard Yorktown Center</p>
-        <p><strong>Nov. 24th - 26th, 2017</strong></p>
+        <p><strong>Nov. 23th - 25th, 2018</strong></p>
       </div>
     </section>
   </article>
