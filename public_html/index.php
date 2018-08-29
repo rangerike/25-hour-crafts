@@ -53,7 +53,7 @@
  *
  * NOTE: If you change these, also change the error_reporting() code below
  */
-	define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'development');
+	define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'devPC');
 
 /*
  *---------------------------------------------------------------
@@ -66,6 +66,7 @@
 switch (ENVIRONMENT)
 {
 	case 'development':
+	case 'devPC':
 		error_reporting(-1);
 		ini_set('display_errors', 1);
 	break;
@@ -98,8 +99,8 @@ switch (ENVIRONMENT)
  * Set the path if it is not in the same directory as this file.
  */
 	//$system_path = '/Applications/XAMPP/xamppfiles/htdocs/25-hour-crafts/system';
-	//$system_path = '/wamp64/www/25-hour-crafts/system';
-	$system_path = '/home/a25thhou/system';
+	$system_path = '/wamp64/www/25-hour-crafts/system';
+	//$system_path = '/home/a25thhou/system';
 
 /*
  *---------------------------------------------------------------
@@ -117,8 +118,8 @@ switch (ENVIRONMENT)
  * NO TRAILING SLASH!
  */
 	//$application_folder = '/Applications/XAMPP/xamppfiles/htdocs/25-hour-crafts/application';
-	//$application_folder = '/wamp64/www/25-hour-crafts/application';
-	$application_folder = '/home/a25thhou/application';
+	$application_folder = '/wamp64/www/25-hour-crafts/application';
+	//$application_folder = '/home/a25thhou/application';
 
 /*
  *---------------------------------------------------------------

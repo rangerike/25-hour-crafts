@@ -23,8 +23,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-//$config['base_url'] = '//localhost/25-hour-crafts/public_html/';
-$config['base_url'] = 'https://25thhourcrafts.com/';
+$config['base_url'] = '//localhost/25-hour-crafts/public_html/';
+//$config['base_url'] = 'https://25thhourcrafts.com/';
 
 /*
 |--------------------------------------------------------------------------
@@ -36,7 +36,7 @@ $config['base_url'] = 'https://25thhourcrafts.com/';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'index.php';
+$config['index_page'] = '';
 
 /*
 |--------------------------------------------------------------------------

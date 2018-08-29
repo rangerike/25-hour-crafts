@@ -11,11 +11,17 @@
  */
 
 function asset_url(){
-   return 'https://25thhourcrafts.com/assets/';
+   return absolute_url().'assets/';
 }
 
 function absolute_url(){
-	return 'https://25thhourcrafts.com/';
+  if (ENVIRONMENT === "production") {
+    return 'https://25thhourcrafts.com/';
+  } elseif (ENVIRONMENT === "devPC") {
+    return 'http://localhost/25-hour-crafts/public_html/';
+  } elseif (ENVIRONMENT === "devMAC") {
+
+  }
 }
 
 

@@ -26,7 +26,7 @@ class Welcome extends CI_Controller {
 			'meta_description' => '25th Hour Crafts makes handmade nerdy crafts or geeky crafts like steampunk charm necklaces, licensed cotton dicebags, and crocheted edge fleece blankets'
 		);
 		$this->load->view('templates/header.php', $data);
-		$this->load->view('main_page', $data);
+		$this->load->view('landing', $data);
 		$this->load->view('templates/footer.php', $data);
 	}
 }
