@@ -17,10 +17,8 @@ function asset_url(){
 function absolute_url(){
   if (ENVIRONMENT === "production") {
     return 'https://25thhourcrafts.com/';
-  } elseif (ENVIRONMENT === "devPC") {
+  } elseif (ENVIRONMENT === "development") {
     return 'http://localhost/25-hour-crafts/public_html/';
-  } elseif (ENVIRONMENT === "devMAC") {
-
   }
 }
 
