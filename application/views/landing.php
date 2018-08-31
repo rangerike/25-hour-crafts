@@ -1,7 +1,7 @@
 <main id="content" role="main" class="main commerce-landing">
 
   <section class="commerce-hero-content-wrapper center overflow-hidden">
-    <a href="product-listing.amp.html" class="text-decoration-none block">
+    <a href="#" class="text-decoration-none block">
       <amp-img class="commerce-hero-image" src="<?=asset_url()?>images/dicebag-landing-narrow.png" width="750" height="573" layout="responsive" media="(max-width: 52.06rem)" alt="Hero Landing 1" noloading="">
         <div placeholder="" class="commerce-loader"></div>
       </amp-img>
@@ -18,7 +18,7 @@
     </a>
   </section>
   <section class="commerce-hero-content-wrapper center overflow-hidden">
-    <a href="blog-listing.amp.html" class="text-decoration-none block">
+    <a href="<?=absolute_url()?>blog" class="text-decoration-none block">
       <amp-img class="commerce-hero-image" src="<?=asset_url()?>images/geekkon12-madison-narrow.png" width="750" height="573" layout="responsive" media="(max-width: 52.06rem)" alt="Hero Landing 1" noloading="">
         <div placeholder="" class="commerce-loader"></div>
       </amp-img>
@@ -35,7 +35,7 @@
     </a>
   </section>
   <section class="commerce-hero-content-wrapper center overflow-hidden">
-    <a href="product-listing.amp.html" class="text-decoration-none block">
+    <a href="#" class="text-decoration-none block">
       <amp-img class="commerce-hero-image" src="<?=asset_url()?>images/pillows-blankets-narrow.png" width="750" height="573" layout="responsive" media="(max-width: 52.06rem)" alt="Hero Landing 1" noloading="">
         <div placeholder="" class="commerce-loader"></div>
       </amp-img>

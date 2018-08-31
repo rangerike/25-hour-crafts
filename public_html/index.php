@@ -97,8 +97,8 @@ switch (ENVIRONMENT)
  * This variable must contain the name of your "system" directory.
  * Set the path if it is not in the same directory as this file.
  */
-	//$system_path = '/Applications/XAMPP/xamppfiles/htdocs/25-hour-crafts/system';
-	$system_path = '/wamp64/www/25-hour-crafts/system';
+	$system_path = '/Applications/XAMPP/xamppfiles/htdocs/25-hour-crafts/system';
+	//$system_path = '/wamp64/www/25-hour-crafts/system';
 	//$system_path = '/home/a25thhou/system';
 
 /*
@@ -116,8 +116,8 @@ switch (ENVIRONMENT)
  *
  * NO TRAILING SLASH!
  */
-	//$application_folder = '/Applications/XAMPP/xamppfiles/htdocs/25-hour-crafts/application';
-	$application_folder = '/wamp64/www/25-hour-crafts/application';
+	$application_folder = '/Applications/XAMPP/xamppfiles/htdocs/25-hour-crafts/application';
+	//$application_folder = '/wamp64/www/25-hour-crafts/application';
 	//$application_folder = '/home/a25thhou/application';
 
 /*
