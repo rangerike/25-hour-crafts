@@ -1,5 +1,9 @@
-<!-- Start Footer -->
-<footer class="ampstart-footer flex flex-column items-center px3">
+<aside class="commerce-blog-sidebar commerce-side-panel xs-hide sm-hide md-col-4 md-px4 md-pt6">
+  <h1 class="h5 md-pb2">25th Hour Crafts Blog</h1>
+  <p class="mb2">Learn about our experiences, successes, and failures as vendors at various craft fairs, conventions, and expos and how we make some of our items.</p>
+
+
+  <h3 class="h7 block pt3">follow us</h3>
   <ul class="ampstart-social-follow list-reset flex justify-around items-center flex-wrap m0 mb4">
     <li>
       <a href="<?=facebook_url()?>" target="_blank" class="inline-block p1" aria-label="Link to AMP HTML Facebook"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="23.6" viewbox="0 0 56 55"><title>Facebook</title><path d="M47.5 43c0 1.2-.9 2.1-2.1 2.1h-10V30h5.1l.8-5.9h-5.9v-3.7c0-1.7.5-2.9 3-2.9h3.1v-5.3c-.6 0-2.4-.2-4.6-.2-4.5 0-7.5 2.7-7.5 7.8v4.3h-5.1V30h5.1v15.1H10.7c-1.2 0-2.2-.9-2.2-2.1V8.3c0-1.2 1-2.2 2.2-2.2h34.7c1.2 0 2.1 1 2.1 2.2V43" class="ampstart-icon ampstart-icon-fb"></path></svg></a>
@@ -11,37 +15,4 @@
       <a href="<?=shop_email()?>" target="_blank" class="inline-block p1" aria-label="Link to AMP HTML E-mail"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="18.4" viewbox="0 0 56 43"><title>email</title><path d="M10.5 6.4C9.1 6.4 8 7.5 8 8.9v21.3c0 1.3 1.1 2.5 2.5 2.5h34.9c1.4 0 2.5-1.2 2.5-2.5V8.9c0-1.4-1.1-2.5-2.5-2.5H10.5zm2.1 2.5h30.7L27.9 22.3 12.6 8.9zm-2.1 1.4l16.6 14.6c.5.4 1.2.4 1.7 0l16.6-14.6v19.9H10.5V10.3z" class="ampstart-icon ampstart-icon-email"></path></svg></a>
     </li>
   </ul>
-  <nav class="ampstart-footer-nav">
-    <ul class="list-reset flex flex-wrap mb3">
-      <li class="px1"><a class="text-decoration-none ampstart-label" href="<?=absolute_url()?>about">About</a></li>
-      <li class="px1"><a class="text-decoration-none ampstart-label" href="<?=absolute_url()?>events">Events</a></li>
-      <li class="px1"><a class="text-decoration-none ampstart-label" href="<?=absolute_url()?>contact">Contact</a></li>
-      <li class="px1"><a class="text-decoration-none ampstart-label" href="<?=absolute_url()?>shop/">Shop</a></li>
-    </ul>
-  </nav>
-  <small style="text-align: center;">
-    © 25th Hour Crafts, <?= date('Y')?><br><br>
-    All products made with licensed material are in no way associated with the original copyright owner and are the sole work and imagination of either Kayla or Scott Bitz.
-  </small>
-</footer>
-<!-- End Footer -->
-<amp-analytics type="googleanalytics">
-  <script type="application/json">
-  {
-    "vars": {
-      "account": "UA-108055381-1"
-    },
-    "triggers": {
-      "default pageview": {
-        "on": "visible",
-        "request": "pageview",
-        "vars": {
-          "title": "<?=$page?>"
-        }
-      }
-    }
-  }
-  </script>
-</amp-analytics>
-</body>
-</html>
+</aside>

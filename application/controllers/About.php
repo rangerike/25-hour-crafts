@@ -9,8 +9,8 @@ class About extends CI_Controller {
 			'canonicalURI' => 'about',
 			'meta_description' => 'We travel the upper midwest to conventions, comic cons, and geeky craft fairs to spread our crafts to fellow nerds and geeks'
 		);
-		$this->load->view('templates/header.php', $data);
+		$this->load->view('templates/header', $data);
 		$this->load->view('about_us', $data);
-		$this->load->view('templates/footer.php', $data);
+		$this->load->view('templates/footer', $data);
 	}
 }
