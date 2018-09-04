@@ -6,9 +6,9 @@
         <div placeholder="" class="commerce-loader"></div>
       </amp-img>
       <div class="mb3 md-mx0">
-        <h2 class="h3">Table and Vending Displays</h2>
+        <h2 class="h3">Tables and Displays: Maximizing Your Space</h2>
         <time datetime="2018-03-31T00:00" class="block mb2">31st March 2018</time>
-        <p class="mb2">As a vendor, displays are almost as important as your product! So learn from our mistakes to help you layout your tables, racks, etc in a way that not only attracts prospective customers, but also keeps them from putting your product "back on the shelf."</p>
+        <p class="mb2">You have this amazing, high quality product, but even though it's selling pretty well, you feel it could be better. If this is the case, it's time to rethink your displays and start experimenting! Come learn from our mistakes and successes with our displays.</p>
         <a href="<?=absolute_url()?>blog/article/1" class="commerce-blog-link inline-block h7 md-mb4">read more</a>
       </div>
     </article>
